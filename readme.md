@@ -51,6 +51,9 @@ Also note that RedHat Linux was used to deploy this project.
 4. lvm2 was created with the command below 
 
         sudo yum install lvm2
+    run the command below to confirm if lvm has been created
+    
+        sudo lvmdiskscan
 
 5. To mark my volumes as a physical volume, the command below was used 
     ``````
